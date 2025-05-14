@@ -6,5 +6,6 @@ import './App.css'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <App />
+    <script src="./assets/vendor/preline/dist/preline.js"></script>
   </StrictMode>,
 )
