@@ -1,7 +1,8 @@
-
+import { Index } from "./components/pages/Index"
 function App() {
   return (
     <>
+      <Index></Index>
     </>
   )
 }
