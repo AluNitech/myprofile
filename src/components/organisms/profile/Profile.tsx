@@ -1,15 +1,5 @@
 
-type ProfileProps = {
-    image: string;
-    job: string;
-    biography: string;
-    currentRole: string;
-    email: string;
-    twitterName: string;
-    githubName: string;
-    myname: string;
-}
-
+import type { ProfileProps } from '../../types/ProfileProps'
 
 export const Profile = (props: ProfileProps) => {
     const { image,job,biography,currentRole,email,twitterName,githubName,myname} = props;

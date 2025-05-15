@@ -1,16 +1,6 @@
 import { Card } from "../../atoms/card/Card";
 import {Profile} from "./Profile"
-
-type ProfileProps = {
-    image: string;
-    job: string;
-    biography: string;
-    currentRole: string;
-    email: string;
-    twitterName: string;
-    githubName: string;
-    myname: string;
-}
+import type { ProfileProps } from '../../types/ProfileProps'
 
 
 export const ProfileWithCard = (props: ProfileProps) => {
